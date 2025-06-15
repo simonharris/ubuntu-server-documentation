@@ -30,7 +30,7 @@ listen_addresses = '*'
 ```
 
 ```{note}
-'*' will allow all available IP interfaces (IPv4 and IPv6), to only listen for IPv4 set `0.0.0.0` while '`::`' allows listening for all IPv6 addresses.
+'`*`' will allow connections from all available IP interfaces (IPv4 and IPv6). To only listen for IPv4 set `listen_addresses` to '`0.0.0.0`', while '`::`' allows listening for all IPv6 addresses.
 ```
 
 For details on other parameters, refer to the configuration file or to the [PostgreSQL documentation](https://www.postgresql.org/docs/) for information on how they can be edited.
